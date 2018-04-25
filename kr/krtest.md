@@ -1,8 +1,8 @@
 ---
-description: 졸라게
+description: git
 ---
 
 # 배포
 
-느리
+으로 슝
 
