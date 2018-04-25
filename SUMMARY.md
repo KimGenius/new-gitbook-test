@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [test](test.md)
+* [앱 권한 설정하기\(Scopes\)](test.md)
 
 ## group
 
