@@ -6,34 +6,34 @@ description: >-
 
 # 앱 권한 설정하기\(Scopes\)
 
-### 요청된 권한과 허가된 권한에 대한 에러처리
+## 요청된 권한과 허가된 권한에 대한 에러처리
 
 앱 제공자가 요청한 권한에 대해서 사용자가 허가 않았을 경우에 이에 대한 에러 처리를 해주셔야 됩니다.  
 예를 들어 앱 제공자가 user:basicProfile 권한을 요청했지만 사용자가 이를 거부한 경우,  
 해당 사이트 또는 프로그램에서 이에 대한 에러 핸들링을 해주셔야 문제없이 서비스가 가능합니다.
 
-### 사용가능한 권한 목록
+## 사용가능한 권한 목록
 
-**user**
+### **user**
 
 * user:\*
 * user:basicProfile
 * user:cash
 * user:
 
-#### sms
+### sms
 
 * sms:\*
 * sms:send
 * sms:sent
 
-#### senderId
+### senderId
 
 * senderId:\*
 * senderId:default
 * senderId:list
 
-#### admin
+### admin
 
 * admin:\*
 * admin:createApiKey
